@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chai & Crumbs | Delhi Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="#">Chai <span>&</span> Crumbs</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tagline">YOUR NEIGHBOURHOOD CAFE</p>
+        <h1>A little break,<br><span>made better.</span></h1>
+        <p>Fresh chai, comforting coffee and tasty bites
+          at prices that make you smile.</p>
+        <a class="button" href="#menu">Explore our menu</a>
+      </div>
+
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=80"
+        alt="Cosy cafe interior">
+    </section>
+
+    <section class="menu-section" id="menu">
+      <p class="tagline">FRESHLY MADE, FAIRLY PRICED</p>
+      <h2>Our Menu</h2>
+
+      <div class="filters">
+        <button class="filter active" data-category="all">All</button>
+        <button class="filter" data-category="drinks">Drinks</button>
+        <button class="filter" data-category="food">Food</button>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card" data-category="drinks">
+          <img src="https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=600&q=80" alt="Chai">
+          <h3>Masala Chai</h3>
+          <p>Ginger, spices and comfort.</p>
+          <strong>₹40</strong>
+        </article>
+
+        <article class="menu-card" data-category="drinks">
+          <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80" alt="Coffee">
+          <h3>Cold Coffee</h3>
+          <p>Chilled and creamy.</p>
+          <strong>₹99</strong>
+        </article>
+
+        <article class="menu-card" data-category="food">
+          <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80" alt="Sandwich">
+          <h3>Grilled Sandwich</h3>
+          <p>A tasty, toasted snack.</p>
+          <strong>₹89</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2>Come say hello!</h2>
+      <p>Have a question about our menu?</p>
+      <a class="button whatsapp" id="whatsappLink" href="#">
+        Chat on WhatsApp
+      </a>
+      <p class="small-note">
+        Fictional cafe demo — replace the contact details before publishing.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Chai & Crumbs · Portfolio demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
